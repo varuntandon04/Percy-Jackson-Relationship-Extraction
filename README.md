@@ -6,7 +6,7 @@ This project is divided into two main parts:
 * Data scraping using Selenium
 * Data Analysis using Networkx and Pyvis.
 
-The data was scraped from the [Percy Jackson Wiki](https://riordan.fandom.com/wiki/Category:Percy_Jackson_and_the_Olympians_characters), and can be found in Books/characters.csv
+The data was scraped from the [Percy Jackson Wiki](https://riordan.fandom.com/wiki/Category:Percy_Jackson_and_the_Olympians_characters), and can be found in [Books/characters.csv](./characters.csv)
 
 This data was then transformed into a edgelist dataframe, consisting of a source, target and weight of the edge between the source and target, forming a weighted graph. The dataframe was then converted to a graph using the networkx library and further refined using pyvis for graph visualization. The community library was used to cluster the nodes of the graph into their respective groups or communities, based on the characters of the books. Furthermore, there are some statistical graphs that show the trends of main characters over the course of the five books. 
 
