@@ -15,3 +15,9 @@ What the graphs look like:
 ![Community_relationships_2.html](pj_wiki_scraping/Graphs/Community_relationships_2.png)
 
 *Note: The scraping is only possible on Chrome for now.* 
+
+
+To do:
+* resize graph
+* hide long outputs
+* add note to open in nbViewer
