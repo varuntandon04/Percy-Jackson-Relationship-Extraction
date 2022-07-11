@@ -12,7 +12,7 @@ This data was then transformed into a edgelist dataframe, consisting of a source
 
 What the graphs look like:
 
-![Community_relationships_2.html](pj_wiki_scraping/Community_relationships.html)
+<img src="pj_wiki_scraping/Graphs/Community_relationships_2.png" width="200">
 
 *Note: The scraping is only possible on Chrome for now.* 
 
