@@ -10,9 +10,18 @@ The data was scraped from the [Percy Jackson Wiki](https://riordan.fandom.com/wi
 
 This data was then transformed into a edgelist dataframe, consisting of a source, target and weight of the edge between the source and target, forming a weighted graph. The dataframe was then converted to a graph using the networkx library and further refined using pyvis for graph visualization. The community library was used to cluster the nodes of the graph into their respective groups or communities, based on the characters of the books. Furthermore, there are some statistical graphs that show the trends of main characters over the course of the five books. 
 
+*Note: if the notebook doesn't open in github, [use this link]()*
+
 What the graphs look like:
 
 <img src="pj_wiki_scraping/Graphs/Community_relationships_2.png" width="600">
+
+What the graphs look like after community detection:
+
+<img src="pj_wiki_scraping/Graphs/Community_relationships_2.png" width="600">
+
+You can further open the graphs (in html) in a browser and see how the nodes interact with each other with physics.
+
 
 *Note: The scraping is only possible on Chrome for now.* 
 
